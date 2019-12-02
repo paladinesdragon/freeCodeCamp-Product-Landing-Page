@@ -4,11 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/1ab2a302e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Pixel 4</title>
+    <title>Pixel 4 - Capture the cosmos</title>
 </head>
 <body>
-    
+    <header id="header">
+        <img src='google logo.png' id="header-img" alt='pixel 4 gif' />
+        <h2>Google Pixel 4</h2>
+        <icon class="fas fa-bars fa-lg"></icon>
+        <icon class="fas fa-times fa-lg"></icon>
+        
+
+        <nav id="nav-bar">
+            <a href="#overview" class="nav-link">Overview</a>
+            <a href="#motion-sense" class="nav-link">Motion Sense</a>
+            <a href="#camera" class="nav-link">Camera</a>
+            <a href="#specs" class="nav-link">Specs</a>
+            <a href="#form" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <main>
+    <!--Overview-->
+    <section id="overview" class="content">
+        <h2>The Google Phone</h2>
+        <img src="Google-Pixel-4.gif" alt="phone gif" />
+    </section>
+    <!--motion sense-->
+    <section id="motion-sense" class="content">
+        <h2>Motion Sense</h2>
+        <p>Motion Sense, an evolved camera, and the new Google Assistant make Pixel 4 our most helpful phone yet.</p>
+        <div id="video">
+            <iframe src="https://www.youtube.com/embed/_F7YRde8DuE" height="315" width="560" frameborder="0"></iframe>
+        </div>
+    </section>
+    <!--Camera-->
+    <section id="camera" class="content">
+        <h2>Sudio-like photos.<br>Without the studio.</h2>
+        <img src="Pixel-4-camera.jpg" alt="pixel 4 camera" />
+    </section>
+    <!--Specs-->
+    <section id="specs" class="content">
+        <h2>Tech Specs</h2>
+        <img src="pixel-4-dimensions.jpg" alt="pixel 4 dimensions" />
+    </section>
+    <!--Form-->
+    <form id="form" class="content" action="https://www.freecodecamp.com/email-submit">
+        <h2>Email</h2>
+        <input type="email" id="email" placeholder="your email" />
+        <input type="submit" id="submit" />
+    </form>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
