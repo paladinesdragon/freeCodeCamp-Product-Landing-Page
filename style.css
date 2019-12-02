@@ -29,8 +29,10 @@ body {
 }
 
 .content {
-    padding:0 1em;
-    height:100vh;
+    padding:1em;
+    height:100%;
+    display:grid;
+    align-content:center;
   }
 
 .fa-bars:hover,
@@ -73,11 +75,6 @@ body {
 #header-img {
     width:1.5rem;
     height:1.5rem;
-}
-
-.content {
-    display:grid;
-    align-content:center;
 }
 
 .content img {
