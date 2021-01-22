@@ -10,7 +10,7 @@ body {
 
 #header {
     display:flex;
-    align-items:center;
+    align-items:baseline;
     justify-content: space-between;
     color:#5f5368;
     padding:1rem;
@@ -38,7 +38,7 @@ body {
     cursor:pointer;
 }
 
-.fa-times {
+#navClose {
     display:none;
 }
 
