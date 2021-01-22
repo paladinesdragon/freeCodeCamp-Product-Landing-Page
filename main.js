@@ -25,9 +25,10 @@ document.addEventListener('scroll', () => {
     }
 });
 
-document.getElementById("submit").addEventListener("click", () => {
-    const email = document.getElementById("email").value;
-    if(email == "") {
+document.getElementById("submit").addEventListener("click", e => {
+    let email = document.getElementById("email");
+    if(email.value == "") {
         alert("Please enter a valid email");
+        e.preventDefault();
     }
 });
