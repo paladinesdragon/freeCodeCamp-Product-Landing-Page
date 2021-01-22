@@ -3,7 +3,6 @@ const navClose = document.getElementById('navClose');
 const nav = document.getElementById('nav-bar');
 
 navOpen.addEventListener('click', () => {
-    console.log("clicked");
         nav.style.display = 'flex';
         navClose.style.display = 'block';
         navOpen.style.display = 'none';
