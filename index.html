@@ -11,9 +11,9 @@
 <body>
     <header id="header">
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUZsnc0Uj0-SGT5h5lumuq3CGxQeSDEGWYKAqcrjubowujEaRE' id="header-img" alt='pixel 4 gif' />
-        <h2>Google Pixel 4</h2>
-        <div id="navOpen"><i class="fas fa-bars fa-lg"></i></div>
-        <div id="navClose"><i class="fas fa-times fa-lg"></i></div>
+        <h1>Google Pixel 4</h1>
+        <button id="navOpen" aria-label="open navigation"><i class="fas fa-bars fa-lg"></i></button>
+        <button id="navClose" aria-label="close navigation"><i class="fas fa-times fa-lg"></i></button>
         
         <nav id="nav-bar">
             <a href="#overview" class="nav-link">Overview</a>
@@ -26,7 +26,7 @@
     <main>
     <!--Overview-->
     <section id="overview" class="content">
-        <h2>The Google Phone</h2>
+        <h1>The Google Phone</h1>
         <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Pixel4.gif" alt="phone gif" />
     </section>
     <!--motion sense-->
@@ -51,13 +51,13 @@
     <!--Form-->
     <form id="form" class="content" action="https://www.freecodecamp.com/email-submit">
         <h2>Email</h2>
-        <input type="email" id="email" name="email" placeholder="your email" />
+        <input type="email" id="email" name="email" placeholder="your email" aria-label="enter your email" required />
         <input type="submit" id="submit" />
     </form>
+    </main>
     <footer>
         <p>All logos, images and video are the property, trademarks and copyright of &copy;Google. Google has no affiliation with me and I have no affiliation with Google. All information contained on this site is used for educational purposes only.</p>
     </footer>
-    </main>
     <script src="main.js"></script>
 </body>
 </html>
